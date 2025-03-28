@@ -45,3 +45,9 @@ const teams = [
 const generateRandomNumber = () => {
     return Math.floor(Math.random() * 100);
 }
+
+for (let i = 0; i < teams.length; i++) {
+    teams[i].points = generateRandomNumber();
+    teams[i].fouls = generateRandomNumber();
+}
+
