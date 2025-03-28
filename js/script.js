@@ -52,3 +52,15 @@ for (let i = 0; i < teams.length; i++) {
 }
 
 console.log(teams);
+console.log(`${teams[0].name} ha totalizzato ${teams[0].points} punti e ${teams[0].fouls} falli subiti`);
+console.log(`${teams[1].name} ha totalizzato ${teams[1].points} punti e ${teams[1].fouls} falli subiti`);
+
+const onlyNameFouls =[];
+
+for (let i = 0; i < teams.length; i++) {
+    onlyNameFouls.push(`${teams[i].name} ha totalizzato ${teams[i].fouls} falli subiti`);
+}
+
+console.log(onlyNameFouls);
+
+
