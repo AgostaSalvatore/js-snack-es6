@@ -51,3 +51,4 @@ for (let i = 0; i < teams.length; i++) {
     teams[i].fouls = generateRandomNumber();
 }
 
+console.log(teams);
