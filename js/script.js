@@ -40,3 +40,8 @@ const teams = [
         fouls: 0
     },
 ]
+
+
+const generateRandomNumber = () => {
+    return Math.floor(Math.random() * 100);
+}
