@@ -24,3 +24,19 @@ for (let i = 0; i < bikes.length; i++) {
 }
 
 console.log(bikes[0]);
+
+console.log("----------------Esercizio 2----------------");
+//Snack 2 -- Esercizio 2
+//creare un array di oggetti squadre di calcio
+const teams = [
+    {
+        name: "Milan",
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: "Juventus",
+        points: 0,
+        fouls: 0
+    },
+]
