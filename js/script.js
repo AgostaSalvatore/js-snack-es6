@@ -39,7 +39,83 @@ const teams = [
         points: 0,
         fouls: 0
     },
+    {
+        name: "Inter",
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: "Napoli",
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: "Roma",
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: "Atalanta",
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: "Lazio",
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: "Torino",
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: "Bologna",
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: "Cagliari",
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: "Verona",
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: "Monza",
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: "Empoli",
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: "Salernitana",
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: "Sampdoria",
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: "Udinese",
+        points: 0,
+        fouls: 0
+    },
+    {
+        name: "Venezia",
+        points: 0,
+        fouls: 0
+    }
 ]
+
 
 
 const generateRandomNumber = () => {
@@ -52,8 +128,9 @@ for (let i = 0; i < teams.length; i++) {
 }
 
 console.log(teams);
-console.log(`${teams[0].name} ha totalizzato ${teams[0].points} punti e ${teams[0].fouls} falli subiti`);
-console.log(`${teams[1].name} ha totalizzato ${teams[1].points} punti e ${teams[1].fouls} falli subiti`);
+for (let i = 0; i < teams.length; i++) {
+    console.log(`${teams[i].name} ha totalizzato ${teams[i].points} punti e ${teams[i].fouls} falli subiti`);
+}
 
 const onlyNameFouls =[];
 
