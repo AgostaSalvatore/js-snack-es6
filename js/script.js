@@ -3,11 +3,11 @@
 const bikes = [
     {
         name: "Bici-1",
-        weight: 10
+        weight: 40
     },
     {
         name: "Bici-2",
-        weight: 20
+        weight: 10
     },
     {
         name: "Bici-3",
@@ -15,3 +15,12 @@ const bikes = [
     }
 ]
 
+let minWeight;
+
+for (let i = 0; i < bikes.length; i++) {
+    if (bikes[i].weight < bikes[0].weight) {
+        bikes[0] = bikes[i];
+    }
+}
+
+console.log(bikes[0]);
