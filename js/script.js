@@ -7,7 +7,7 @@ const bikes = [
     },
     {
         name: "Bici-2",
-        weight: 10
+        weight: 100
     },
     {
         name: "Bici-3",
@@ -15,15 +15,15 @@ const bikes = [
     }
 ]
 
-let minWeight;
+let minWeight = bikes[0];
 
 for (let i = 0; i < bikes.length; i++) {
-    if (bikes[i].weight < bikes[0].weight) {
-        bikes[0] = bikes[i];
+    if(minWeight.weight > bikes[i].weight) {
+        minWeight = bikes[i];
     }
 }
 
-console.log(bikes[0]);
+console.log(minWeight);
 
 console.log("----------------Esercizio 2----------------");
 //Snack 2 -- Esercizio 2
